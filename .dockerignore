@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+.ipynb_checkpoints
+notebooks
+data
+tests
+screenshots
+mlruns
+mlartifacts
+mlflow.db
+*.log
+.env
+README.md
