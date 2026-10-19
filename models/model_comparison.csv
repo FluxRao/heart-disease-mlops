@@ -1,0 +1,3 @@
+model,cv_accuracy,cv_precision,cv_recall,cv_roc_auc,tuning_roc_auc,best_params
+Logistic Regression,0.8471088435374149,0.8767529146045769,0.783399209486166,0.9024931590148981,0.9024931590148981,{'classifier__C': 1.0}
+Random Forest,0.8181122448979592,0.8172527472527472,0.7826086956521738,0.8972036417688593,0.8972036417688593,"{'classifier__max_depth': None, 'classifier__n_estimators': 100}"
