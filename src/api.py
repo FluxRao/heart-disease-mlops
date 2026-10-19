@@ -1,3 +1,5 @@
+import logging
+import time
 
 from pathlib import Path
 from contextlib import asynccontextmanager
@@ -5,8 +7,15 @@ from typing import Annotated
 
 import joblib
 import pandas as pd
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel, Field
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+)
+
+logger = logging.getLogger("heart_disease_api")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MODEL_PATH = PROJECT_ROOT / "models" / "best_model.joblib"
@@ -17,13 +26,20 @@ model = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global model
+
     if not MODEL_PATH.exists():
+        logger.error("Model file not found")
         raise RuntimeError(
             f"Model not found at {MODEL_PATH}. Run src/train.py first."
         )
+
     model = joblib.load(MODEL_PATH)
+    logger.info("Heart disease model loaded successfully")
+
     yield
+
     model = None
+    logger.info("Heart disease API shutting down")
 
 
 app = FastAPI(
@@ -33,6 +49,33 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    start_time = time.perf_counter()
+
+    try:
+        response = await call_next(request)
+    except Exception:
+        duration_ms = (time.perf_counter() - start_time) * 1000
+        logger.exception(
+            "Request failed | method=%s | path=%s | duration_ms=%.2f",
+            request.method,
+            request.url.path,
+            duration_ms,
+        )
+        raise
+
+    duration_ms = (time.perf_counter() - start_time) * 1000
+
+    logger.info(
+        "Request completed | method=%s | path=%s | status=%d | duration_ms=%.2f",
+        request.method,
+        request.url.path,
+        response.status_code,
+        duration_ms,
+    )
+
+    return response
 
 class PatientData(BaseModel):
     age: Annotated[float, Field(ge=0, le=120)]
@@ -89,7 +132,8 @@ def predict(patient: PatientData):
         }
 
     except Exception:
+        logger.exception("Prediction processing failed")
         raise HTTPException(
             status_code=500,
             detail="Prediction failed. Check server logs.",
-        )
+        ) from None

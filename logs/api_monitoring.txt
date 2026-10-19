@@ -1,0 +1,157 @@
+﻿INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+2026-10-19 05:56:15,558 | INFO | heart_disease_api | Heart disease model loaded successfully
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-10-19 05:56:19,814 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=2.85
+INFO:     10.1.0.1:57102 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:57112 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:56:22,496 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.26
+2026-10-19 05:56:32,497 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.16
+INFO:     10.1.0.1:47478 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:56:39,782 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.67
+INFO:     10.1.0.1:43710 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:56:42,501 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.14
+INFO:     10.1.0.1:43720 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:56:52,489 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.97
+INFO:     10.1.0.1:54186 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:56:59,774 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.93
+INFO:     10.1.0.1:47664 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:47666 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:57:02,489 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.33
+INFO:     10.1.0.1:40396 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:57:12,490 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.43
+2026-10-19 05:57:19,769 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.85
+INFO:     10.1.0.1:51788 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:57:22,485 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.91
+INFO:     10.1.0.1:51798 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:57:32,486 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.23
+INFO:     10.1.0.1:54204 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:35710 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:57:39,770 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.84
+INFO:     10.1.0.1:35726 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:57:42,486 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.29
+2026-10-19 05:57:52,481 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.14
+INFO:     10.1.0.1:50142 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:53742 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:57:59,766 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.07
+INFO:     127.0.0.1:51330 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:57:59,944 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.24
+2026-10-19 05:58:02,481 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.02
+INFO:     10.1.0.1:53746 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:58:12,482 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.90
+INFO:     10.1.0.1:43116 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:58:19,763 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.81
+INFO:     10.1.0.1:47688 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:58:22,478 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.83
+INFO:     10.1.0.1:47702 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:58:32,478 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.89
+INFO:     10.1.0.1:40014 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:58:39,762 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.89
+INFO:     10.1.0.1:45780 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:58:42,478 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.09
+INFO:     10.1.0.1:45788 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:58:52,474 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.99
+INFO:     10.1.0.1:45082 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:58:59,761 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.92
+INFO:     10.1.0.1:45346 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:59:02,474 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.04
+INFO:     10.1.0.1:45356 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:59:12,474 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.36
+INFO:     10.1.0.1:41472 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:59:19,755 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.89
+INFO:     10.1.0.1:49272 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:49278 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:59:22,471 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.96
+2026-10-19 05:59:32,471 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.85
+INFO:     10.1.0.1:53464 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:59:39,755 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.85
+INFO:     10.1.0.1:36100 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:36114 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:59:42,471 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.08
+2026-10-19 05:59:52,467 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.92
+INFO:     10.1.0.1:57728 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 05:59:59,754 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.78
+INFO:     10.1.0.1:37428 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:02,466 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.97
+INFO:     10.1.0.1:37432 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:08,144 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.90
+INFO:     127.0.0.1:47216 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:12,469 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.49
+INFO:     10.1.0.1:57478 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:19,749 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.15
+INFO:     10.1.0.1:48770 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55980 - "GET /docs HTTP/1.1" 200 OK
+2026-10-19 06:00:20,865 | INFO | heart_disease_api | Request completed | method=GET | path=/docs | status=200 | duration_ms=1.33
+2026-10-19 06:00:21,255 | INFO | heart_disease_api | Request completed | method=GET | path=/openapi.json | status=200 | duration_ms=143.27
+INFO:     127.0.0.1:55980 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.1.0.1:48776 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:22,464 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.93
+2026-10-19 06:00:32,463 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.08
+INFO:     10.1.0.1:35096 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:37,365 | INFO | heart_disease_api | Request completed | method=POST | path=/predict | status=200 | duration_ms=410.31
+INFO:     127.0.0.1:55986 - "POST /predict HTTP/1.1" 200 OK
+INFO:     10.1.0.1:41502 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:39,749 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.07
+2026-10-19 06:00:42,463 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.02
+INFO:     10.1.0.1:41512 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:52,460 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.98
+INFO:     10.1.0.1:38184 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:00:59,746 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.16
+INFO:     10.1.0.1:51732 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:01:02,462 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.17
+INFO:     10.1.0.1:51748 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:01:12,461 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.17
+INFO:     10.1.0.1:59346 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:01:19,742 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.03
+INFO:     10.1.0.1:37220 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:01:22,456 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.06
+INFO:     10.1.0.1:37232 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:01:32,456 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.97
+INFO:     10.1.0.1:49498 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:01:39,741 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.89
+INFO:     10.1.0.1:55100 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:55114 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:01:42,457 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.19
+2026-10-19 06:01:52,454 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.22
+INFO:     10.1.0.1:53232 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:01:59,738 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.85
+INFO:     10.1.0.1:58748 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:02:02,454 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.02
+INFO:     10.1.0.1:58750 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:02:12,453 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.10
+INFO:     10.1.0.1:58134 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:02:19,735 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.90
+INFO:     10.1.0.1:36756 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:36764 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:02:22,450 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.04
+2026-10-19 06:02:32,450 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.20
+INFO:     10.1.0.1:46152 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:43098 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:02:39,734 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.87
+2026-10-19 06:02:42,450 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.90
+INFO:     10.1.0.1:43112 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:02:52,447 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.92
+INFO:     10.1.0.1:48830 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:02:59,731 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.87
+INFO:     10.1.0.1:46922 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:03:02,447 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.94
+INFO:     10.1.0.1:46928 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:03:12,447 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.03
+INFO:     10.1.0.1:55914 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:03:19,728 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.81
+INFO:     10.1.0.1:35052 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:03:22,444 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.86
+INFO:     10.1.0.1:35062 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:41416 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:03:32,443 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.60
+INFO:     10.1.0.1:60638 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:03:39,730 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.49
+2026-10-19 06:03:42,444 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.01
+INFO:     10.1.0.1:60650 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.1.0.1:40550 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:03:52,440 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.44
+2026-10-19 06:03:59,724 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=0.96
+INFO:     10.1.0.1:56606 - "GET /health HTTP/1.1" 200 OK
+2026-10-19 06:04:02,439 | INFO | heart_disease_api | Request completed | method=GET | path=/health | status=200 | duration_ms=1.01
+INFO:     10.1.0.1:56610 - "GET /health HTTP/1.1" 200 OK
